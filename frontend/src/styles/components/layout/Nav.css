@@ -1,0 +1,47 @@
+nav{
+    background-color: steelblue;
+    
+}
+
+nav ul{
+    
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-family: 'Hubballi', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+    font-size: 1.6em;
+}
+
+nav ul li a:hover{
+    background-color: rgb(52, 94, 129);
+    Transition: all 0.5s ease 0s;
+}
+.activo:hover{
+    background-color:rgb(192, 125, 0) ;
+}
+
+.activo{
+    background-color:rgb(192, 125, 0) ;
+    Transition: all 0.2s ease 0s;
+}
+
+.barranav{
+    display: flex;
+    justify-content: center;
+}

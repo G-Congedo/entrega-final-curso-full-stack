@@ -1,0 +1,44 @@
+.contenedorstaff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.cara{
+    border-radius: 100%;
+   width: 100px;
+   margin-top: 0.5em;
+}
+
+.nombre{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.cargo{
+    font-weight: 700;
+    font-size: 1em;
+    font-style: italic;
+    }
+.staff{
+    width: 22%;
+    height: auto;
+    font-size: 1.2em;
+    border-color:steelblue;
+    border-style: solid;
+    border-radius: 5%;
+    
+    flex-direction: column;
+    text-align: center;
+     
+}
+
+.imgnosotros{
+    display: flex;
+    justify-content: center;
+}
+
+.loremnosotros{
+    font-size: 1.6em;
+}

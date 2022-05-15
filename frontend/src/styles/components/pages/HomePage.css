@@ -1,0 +1,19 @@
+.homeimg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.cuerpohome{
+    display: inline-flex;
+    align-items: center;
+}
+
+.loremhome{
+    width: 70%;
+    font-size: 1.6em;
+}
+.premiohome{
+    width: 30%;
+}
+

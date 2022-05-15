@@ -1,0 +1,56 @@
+/* inicio servicios */
+
+.servicios{
+    border-style: solid;
+    border-color: #4682b4;
+    border-width: 2px;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 900px;
+    padding: 1em;
+    margin-bottom: 0.5em;
+}
+.servicios .info{
+    width: 75%;
+}
+
+.servicios img{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.servicios:nth-child(odd) img{
+    float: left;
+    
+}
+
+.servicios:nth-child(even) img{
+    float: right;
+}
+
+.servicios h4{
+    font-family: 'The Nautigal', cursive;
+    font-size: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px #4682b4 solid;
+    color: rgb(23, 76, 175);
+}
+
+.servicios p{
+    font-size: 1.5em;
+}
+
+.servicios:nth-child(odd) .info{
+margin-left: 250px; 
+}
+
+.servicios:nth-child(odd) h4{
+    margin-right: 50px;
+}
+
+.servicios:nth-child(odd) p{
+    margin-right: 50px;
+}
+
+/* fin servicios */
